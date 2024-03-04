@@ -1,0 +1,17 @@
+{
+  "name": "acfun-evolved-signer",
+  "version": "0.0.1",
+  "description": "內部程序",
+  "main": "packer.js",
+  "type": "module",
+  "scripts": {
+    "sign": "node packer.js"
+  },
+  "author": "NickHsu",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs-extra": "^11.2.0",
+    "tar": "^6.2.0"
+  }
+}
