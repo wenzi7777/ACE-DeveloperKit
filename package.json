@@ -1,15 +1,19 @@
 {
   "name": "ace-developerkit",
   "version": "0.0.1",
-  "description": "Developer Kit for AcFun Evolved.",
-  "main": "./packer/dist",
-  "scripts": {
-    "build": "rm -rf dist && rm -rf ./packer/pack && rm -rf ./packer/raw/* && webpack build && cp ./manifest.js ./dist/manifest.js && cp ./dist/* ./packer/raw/ && node ./packer/packer.js"
-  },
-  "author": "NickHsu",
+  "description": "Developer kit for AcFun-Evolved Plugins.",
+  "main": "./scripts/buildBundle.js",
+  "type": "module",
+  "scripts": {},
+  "author": "Nick Hsu",
   "license": "MPL-2.0",
-  "devDependencies": {
-    "webpack": "^5.90.2",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "crypto": "^1.0.1",
+    "express": "^4.18.3",
+    "fs-extra": "^11.2.0",
+    "tar": "^6.2.0",
+    "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4"
   }
 }

@@ -1,3 +1,13 @@
+/**
+ * 组件【卡戎】
+ * 用于生成可被桥接的插件安装包
+ *
+ * 经webpack编译：所需文件将自动输入raw目录下
+ *
+ * 未经webpack编译：手动将插件编译产物entry.js与manifest.js放于raw目录下
+ *
+ */
+
 import path from 'path'
 import fs from 'fs'
 import fse from 'fs-extra'
