@@ -58,10 +58,11 @@ export const manifest = {
             ]
         },
         {
-            'label': '这是输入器',
-            'id': '设置的id，必须要不一样，最好用你的插件名开头，例如wenzi7777AcThemeThemeInput',
-            'type': 'input',
-            'value': '10 默认值，字符串'
+            "label": "这是输入器",
+            "id": "设置的id，必须要不一样，最好用你的插件名开头，例如wenzi7777AcThemeThemeInput",
+            "type": "input",
+            "inputType": "text 输入框类型",
+            "value": "10 默认值，字符串"
         }
     ]
 }
